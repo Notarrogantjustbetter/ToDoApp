@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<head>
+    <title>Tasks</title>
+</head>
+<body>
+    <form method="POST">
+        <input type="text" name="Task" placeholder="Task">
+        <input type="submit" value="Delete task">
+    </form>
+    <h3>Tasks: </h3>
+    {{ range. }}
+    <div>{{ . }}</div>
+    {{ end }}
+</body>
