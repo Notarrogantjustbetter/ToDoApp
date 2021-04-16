@@ -14,4 +14,4 @@
 
 # Info
 
-* This is a simple "ToDo" application.Create task, delete task, check tasks.
+* This is a "To do" application.Create task, check tasks, delete task.
