@@ -13,11 +13,6 @@ func InitRedis() {
 	})
 }
 
-type RedisService interface {
-	CreateTask(task string) error
-	DeleteTask(task int) error
-	GetTasks()([]string, error)
-}
 
 func CreateTask(task string) error {
 	return client.LPush("Tasks", task).Err()
