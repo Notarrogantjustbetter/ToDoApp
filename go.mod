@@ -1,4 +1,4 @@
-module github.com/Notarrogantjustbetter/ToDo/v2
+module github.com/Deikioveca/ToDo/v2
 
 go 1.16
 
