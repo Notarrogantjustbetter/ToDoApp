@@ -3,8 +3,8 @@ package routes
 import (
 	"net/http"
 	
-	"github.com/Notarrogantjustbetter/ToDo/v2/database"
-	"github.com/Notarrogantjustbetter/ToDo/v2/utils"
+	"github.com/Deikioveca/ToDo/v2/database"
+	"github.com/Deikioveca/ToDo/v2/utils"
 	"github.com/gorilla/mux"
 )
 
