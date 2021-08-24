@@ -3,9 +3,9 @@ package main
 import (
 	"net/http"
 
-	"github.com/Notarrogantjustbetter/ToDo/v2/database"
-	"github.com/Notarrogantjustbetter/ToDo/v2/routes"
-	"github.com/Notarrogantjustbetter/ToDo/v2/utils"
+	"github.com/Deikioveca/ToDo/v2/database"
+	"github.com/Deikioveca/ToDo/v2/routes"
+	"github.com/Deikioveca/ToDo/v2/utils"
 )
 
 func main() {
